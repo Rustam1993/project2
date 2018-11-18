@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}   
+
+body{
+    /* background-image: url("../images/IMG-20181116-WA0020.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: black; */
+
+}
+
+
+.center{
+    align-items: center;
+}
+
+#logo{
+    height: 100px;
+}
+
+.menu-links{
+color: black;
+text-decoration: none;
+}
+
+.menu-links a{
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(34, 0, 255);
+    background-color:black;
+    
+}
+
+.text1{
+    margin: 6vw 13vw 0 23vw;
+    width: 57vw;
+    height: 59vh;
+    text-align: center;
+}
+
