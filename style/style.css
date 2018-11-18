@@ -1,42 +1,109 @@
 * {
     box-sizing: border-box;
+    
 }   
 
-body{
-    /* background-image: url("../images/IMG-20181116-WA0020.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-color: black; */
-
+#nav{
+    background-color: unset !important;
 }
-
 
 .center{
     align-items: center;
 }
-
 #logo{
     height: 100px;
 }
 
-.menu-links{
-color: black;
-text-decoration: none;
+@media only screen and (max-width: 600px)
+{
+    #logo{
+        height: 50px;
+    }
+    .text2{
+        margin: 1vw;
+        width: 100%;
+      
+    }
+    .text1{
+        
+        margin: 1vw;
+        width: 100%;
+    }
+    .text3{
+        
+        margin: 1vw;
+        width: 100%;
+    }
+    .text4{
+        
+        margin: 1vw;
+        width: 100%;
+    }
+
 }
 
-.menu-links a{
-    padding-right: 30px;
-    font-size: 20px;
-    font-weight: bolder;
-    color:rgb(34, 0, 255);
-    background-color:black;
-    
+
+
+#links{
+    width: 81% !important;
 }
+
 
 .text1{
-    margin: 6vw 13vw 0 23vw;
-    width: 57vw;
-    height: 59vh;
-    text-align: center;
+ height: 25vw;
+ width: 75vw;
+ background-color: black;
+ margin: 5vw auto 3vw auto;
+ text-align: center;
+ color:white;
+ overflow-wrap: break-word;
+ word-wrap: break-word;
+ hyphens: auto;
+  }
+.text2{
+ height: 40vw;
+ width: 33vw;
+ background-color: black;
+ margin: 5vw auto 3vw 11vw;
+ text-align: center;
+ color:white;
+ overflow-wrap: break-word;
+ word-wrap: break-word;
+ hyphens: auto;
+}
+.text3{
+ height: 40vw;
+ width: 40vw;
+ background-color: black;
+ margin: 5vw auto 3vw 11vw;
+ text-align: center;    
+ color: white;
+ overflow-wrap: break-word;
+ word-wrap: break-word;
+ hyphens: auto;
+}
+.text4{
+ height: 40vw;
+ height: 40vw;
+ width: 92vw;
+ background-color: black;
+ margin: 5vw auto 3vw auto;
+ text-align: center;
+ color: white;
+ overflow-wrap: break-word;
+ word-wrap: break-word;
+ hyphens: auto;
+}
+
+section > h1{
+    font-size: 6vw;
+}
+
+section > p{
+    font-size: 3vw;
+}
+
+#contact-form{
+    margin-top: 10vw;
 }
 
